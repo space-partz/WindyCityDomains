@@ -1,0 +1,349 @@
+/*
+
+CSS styles for The Windy City Domains - CIS 181 Final Project - #Spring2024
+Contributor: Muhammad Hakeem
+SignOff Date: 
+Dev Version: 3
+
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic site styling for all features, H2, H3, and th content tags */
+.features h2, h3, th {
+    color: rgb(36, 71, 117);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Basic styling of Homepage div containers. */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* Homepage 'body' 'header' container div styling. */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 0px 0;
+}
+
+/* Basic styling for the navigation bar componenets. */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the navigation bar links into a horizontal menu */
+nav ul li {
+    float: left;
+}
+
+/* Style the links inside the navigation bar */
+nav ul li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (darker grey) on hover */
+nav ul li a:hover {
+    background-color: #111;
+}
+
+/* The main nav bar container styling */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #33333300;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+/* Ensures the sticky menu scrolls smoothly with page */
+html {
+    scroll-behavior: smooth;
+}
+
+/* The ordered list sticky navigation bar container styling */
+.stickyHeader { 
+    border-bottom: 1px solid rgba(36, 71, 117, 0.514);
+    background: #33333300;
+    color: #ffffff;
+    padding: 0px 0px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    float: left;
+}
+
+nav ol {
+    font: .8em Tahoma;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li a {
+    display: flex;
+    color: rgb(36, 71, 117);
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+/* homHero section styling */
+.homHero {
+    display: flex, center;
+    background-image: url(Traintracks_UrbanPuzzlePrint042224.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #00000000;
+    color: white;
+    padding: 0px 0; /* padding to bottom of homHero seciton */
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    padding-top: 0px;
+    height: 100%;
+}
+
+/* serHero section styling */
+.serHero {
+    display: flex, center;
+    background-image: url(Traintracks_UrbanPuzzlePrint042224.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #00000000;
+    color: white;
+    padding: 0px 0; /* padding to bottom of homHero seciton */
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    padding-top: 25px;
+    height: 100%;
+}
+
+/* secHero section styling */
+.secHero {
+    display: flex, center;
+    background-image: url(Traintracks_UrbanPuzzlePrint042224.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #00000000;
+    color: white;
+    padding: 0px 0; /* padding to bottom of homHero seciton */
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    padding-top: 25px;
+    height: 100%;
+}
+
+/* comHero section styling */
+.comHero {
+    display: flex, center;
+    background-image: url(Traintracks_UrbanPuzzlePrint042224.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #00000000;
+    color: white;
+    padding: 0px 0; /* padding to bottom of homHero seciton */
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    padding-top: 25px;
+    height: 100%;
+}
+
+/* helHero section styling */
+.helHero {
+    display: flex, center;
+    background-image: url(Traintracks_UrbanPuzzlePrint042224.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #00000000;
+    color: white;
+    padding: 0px 0; /* padding to bottom of homHero seciton */
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    padding-top: 25px;
+    height: 100%;
+}
+
+/* The .homHero search bar container styling*/
+.search {
+    background-color: #df0c0c00;
+    align-items: flex, center;
+    border: none;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* Search bar and button div container */
+.search-bar { 
+    background-color: #160b0b00;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 5px;
+}
+
+/* This is the actual search input bar styling */
+.search-bar input[type="text"] {
+    border: none;
+    padding: 10px 15px;
+    width: 80%;
+    font-size: 16px;
+    border-radius: 5px 0 0 5px;
+}
+
+/* This is the actual search bar button styling */ 
+.search-bar button {
+    display: flex,right;
+    background: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+.search-bar button:hover {
+    background: #555;
+}
+
+.features {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.features .feature {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0% 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 65px;
+    background-color: #007bff00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.info-bubble {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+}
+
+/* Content section styling */
+.content {
+    padding: 20px 0;
+    background-color: #f4f4f4;
+}
+
+.content .container {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.content iframe {
+    width: 100%;
+    height: 450px; /* Set an appropriate height or use aspect-ratio for responsiveness */
+    margin-top: 20px; /* Space between text and video */ 
+}
+
+/* Responsive video embedding on company page */
+@media (max-width: 768px) {
+    .content iframe {
+        height: 250px; /* Smaller height for mobile devices */
+    }
+}
+
+/* Contact absolute link and email link styling */
+.contact {
+    text-align: center;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer .container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Contact section styling */
+.feature .contact { 
+
+}
+
+/* overabundance of styling for for site feature divs */
+.feature {
+    font-family: 'Helvetica', sans-serif; /* Clean, modern font */
+    font-size: 16px; /* Readable font size */
+    color: #333; /* Dark grey text color for readability */
+    line-height: 1.6; /* Space out lines for better readability */
+    text-align: left; /* Align text to the left */
+    background-color: #f9f9f9; /* Light background color */
+    padding: 15px; /* Padding inside the paragraph */
+    border-left: 3px solid #007BFF; /* Blue border on the left for emphasis */
+    margin-bottom: 20px; /* Space below each paragraph */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+/* Hover effect to highlight paragraph */
+.feature:hover {
+    background-color: #e9ecef; /* Lighter background on hover */
+    color: #0056b3; /* Change text color on hover */
+}
+
+/* Responsive settings for smaller screens */
+@media (max-width: 768px) {
+    .feature {
+        font-size: 14px; /* Slightly smaller font size on small devices */
+        padding: 10px; /* Less padding on smaller screens */
+    }
+}
+
+.header-logo img {
+    height: 40px; /* Fixed height for the logo */
+    width: auto; /* Maintain aspect ratio */
+}
