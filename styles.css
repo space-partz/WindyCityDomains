@@ -79,7 +79,7 @@ html {
 /* The ordered list sticky navigation bar container styling */
 .stickyHeader { 
     border-bottom: 1px solid rgba(36, 71, 117, 0.514);
-    background: #33333300;
+    background: #fcfbfbcc;
     color: #ffffff;
     padding: 0px 0px;
     position: sticky;
@@ -135,14 +135,15 @@ nav li a:hover {
     padding: 0px 0; /* padding to bottom of homHero seciton */
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-    padding-top: 25px;
+    padding-top: 0px;
     height: 100%;
 }
 
 /* secHero section styling */
 .secHero {
     display: flex, center;
-    background-image: url(Traintracks_UrbanPuzzlePrint042224.jpg);
+    background-image: url(Windy_again.jpg);
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #00000000;
@@ -150,14 +151,15 @@ nav li a:hover {
     padding: 0px 0; /* padding to bottom of homHero seciton */
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-    padding-top: 25px;
+    padding-top: 0px;
     height: 100%;
 }
 
 /* comHero section styling */
 .comHero {
     display: flex, center;
-    background-image: url(Traintracks_UrbanPuzzlePrint042224.jpg);
+    background-image: url(Windy_again.jpg);
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #00000000;
@@ -165,7 +167,7 @@ nav li a:hover {
     padding: 0px 0; /* padding to bottom of homHero seciton */
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-    padding-top: 25px;
+    padding-top: 0px;
     height: 100%;
 }
 
@@ -180,7 +182,7 @@ nav li a:hover {
     padding: 0px 0; /* padding to bottom of homHero seciton */
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-    padding-top: 25px;
+    padding-top: 0px;
     height: 100%;
 }
 
@@ -310,10 +312,10 @@ footer .container {
     margin: 0 auto;
 }
 
-/* Contact section styling */
+/* Contact section styling 
 .feature .contact { 
 
-}
+}*/
 
 /* overabundance of styling for for site feature divs */
 .feature {
@@ -331,6 +333,26 @@ footer .container {
 
 /* Hover effect to highlight paragraph */
 .feature:hover {
+    background-color: #e9ecef; /* Lighter background on hover */
+    color: #0056b3; /* Change text color on hover */
+}
+
+/* overabundance of styling for for site feature divs */
+.feature b {
+    font-family: 'Helvetica', sans-serif; /* Clean, modern font */
+    font-size: 16px; /* Readable font size */
+    color: #333; /* Dark grey text color for readability */
+    line-height: 1.6; /* Space out lines for better readability */
+    text-align: right; /* Align text to the right */
+    background-color: #f9f9f9; /* Light background color */
+    padding: 15px; /* Padding inside the paragraph */
+    border-right: 3px solid #007BFF; /* Blue border on the right for emphasis */
+    margin-bottom: 20px; /* Space below each paragraph */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+/* Hover effect to highlight paragraph */
+.feature b:hover {
     background-color: #e9ecef; /* Lighter background on hover */
     color: #0056b3; /* Change text color on hover */
 }
